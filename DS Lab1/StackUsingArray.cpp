@@ -6,7 +6,6 @@ public:
     int top;
     int size;
     int*arr;
-
     Stack(int size){
         this->size=size;
         arr=new int[size];
@@ -63,7 +62,6 @@ public:
         cout<<endl;
     }
 };
-
 int main(){
     Stack s(5);
     s.push(10);
@@ -74,6 +72,5 @@ int main(){
     cout<<"Is Empty: "<<s.isEmpty()<<endl;
     cout<<"Is Full: "<<s.isFull()<<endl;
     s.display();
-
     return 0;
 }
