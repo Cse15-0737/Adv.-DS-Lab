@@ -10,7 +10,7 @@ class Queue{
         rear = front = -1;
         arr = new int [size];
     }
-    Queue(){
+    ~Queue(){
         delete[]arr;    // Destructor    
         }
     bool isFull(){
