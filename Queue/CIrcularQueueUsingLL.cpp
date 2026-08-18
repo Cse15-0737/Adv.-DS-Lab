@@ -59,5 +59,6 @@ int main(){
     q.enqueue(20);
     q.enqueue(30);
     cout<<q.dequeue()<<endl;
+    q.display();
     return 0;
 }
