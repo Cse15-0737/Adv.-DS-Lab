@@ -15,6 +15,7 @@ using namespace std;
     }
 int main(){
     string infix, postfix=" ";
+    cout<<"Enter the Infix:"<<endl;
     cin>>infix;
     stack<char> st;
     for(char ch: infix){
